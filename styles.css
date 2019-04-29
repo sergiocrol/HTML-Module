@@ -1,0 +1,291 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0; 
+  min-width: 960px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+/* NAV */
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 15px 0;
+  height: auto;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+/* HEADER */
+.header-information {
+  width: 70%;
+  display: block;
+  padding-top: 35px;
+}
+
+.header-information p{
+  width: 550px;
+  line-height: 1.5em;
+  margin-bottom: 40px;
+}
+
+.header {
+  background-image: url("images/city-scape.svg");
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 452px;
+  color: white;
+  background-color: rgb(32, 101, 136);
+}
+
+.search-container {
+  float: left;
+  width: 100%;
+}
+
+.search-container input, img, button, ul {
+  float: left;
+  margin: 10px 0;
+}
+
+.search-container img {
+  width: 120px;
+  margin-left: 10px;
+}
+
+
+.search-container input {
+  width: 71%;
+  height: 40px;
+  margin-left: 10px;
+  background-color: rgb(31, 82, 111);
+  outline: none;
+  border: 1px solid rgb(75, 115, 139);
+  padding-left: 5px;
+  color:white;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+
+.search-container button {
+  width: 45px;
+  height: 44px;
+  background-color: rgb(31, 82, 111);
+  outline: none;
+  border: 1px solid rgb(75, 115, 139);
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.search-container ul {
+  height: 46px;
+  float: right;
+}
+
+.search-container ul li {
+  height: 46px;
+  line-height: 46px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.search-container a{
+  text-decoration: none;
+  color: white;
+}
+
+.search-container ul li img{
+  margin: 0 10px 0 0;
+  width: 46px;
+  height: 46px;
+}
+
+.link-button {
+  color: white;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 13px 22px;
+  border-radius: 25px;
+}
+.header-information .link-button{
+  background-color: rgb(240, 146, 51);
+  margin-top: 40px;
+  width: 150px;
+}
+
+/* SECTION 1 */
+#collaborations {
+  height: 380px;
+  color: white;
+  background-color: rgb(39, 53, 71);
+  padding-top: 80px;
+}
+
+#collaborations .container {
+  width: 1000px;
+}
+
+#collaborations img {
+  width: 45%;
+  float: left;
+  padding-right: 5%;
+}
+
+.collaborations-content {
+  float: left;
+  width: 45%;
+}
+
+.collaborations-content ul {
+  list-style-position: outside;
+  padding-left: 15px;
+}
+
+.collaborations-content li {
+  font-size: 0.9em;
+  line-height: 25px;
+}
+
+.collaborations-content h2 {
+  width: 80%;
+}
+
+.collaborations-content .link-button {
+  display: inline-block;
+  background-color: rgb(203, 56, 55);
+  margin: 10px 0;
+  width: 150px;
+}
+
+.collaborations-content a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+/* SECTION 2 */
+#install {
+  height: 450px;
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+#install .container{
+  width: 360px;
+  position: absolute;
+  top: 120px;
+  left: 250px;
+  font-size: 0.9em;
+}
+
+#install .link-button{
+  display: inline-block;
+  background-color: rgb(49, 68, 88);
+  margin-top: 15px;
+  width: 120px;
+  font-size: 1.1em;
+}
+
+/* SECTION 3 */
+#resources {
+  height: 450px;
+  padding: 40px 0;
+}
+
+.resources-heading {
+  width: 85%;
+  text-align: center;
+}
+
+.resources-heading h2 {
+  color: rgb(83, 88, 98);
+}
+
+#resources p {
+  color:rgb(135, 145, 156);
+}
+
+.resources-content{
+  margin-top: 40px;
+  width: 80%;
+  height: 200px;
+}
+
+.resource-box {
+  width: 33%;
+  float: left;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.resource-box img{
+  width: 140px;
+  margin: 0 35%;
+}
+
+.resource-box h4{
+  display: block;
+  width: 140px;
+  float: left;
+  margin: 0 35%;
+  padding-top: 10px;
+}
+
+.resource-box p{
+  display: block;
+  width: 85%;
+  float: left;
+  margin: 10px 7.5% 0;
+}
+
+.resource-box a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+
+
+
